@@ -1,0 +1,203 @@
+** TagInfo Scan (version 6.1.0) 15-čvc-25 11:27:58 **
+Report Type: -- IC INFO ------------------------------
+
+# IC Manufacturer:
+NXP Semiconductors
+
+# IC Type:
+MIFARE Classic EV1 (MF1S50)
+
+# MIFARE applications:
+Multi-application card
+* Bus services
+
+-- NDEF ------------------------------
+
+# No NDEF Data Storage Present:
+Maximum NDEF storage size after format: 716 bytes
+
+-- EXTRA ------------------------------
+
+# Memory Information:
+1 kB
+* 16 sectors, with 4 blocks per sector
+* 64 blocks, with 16 bytes per block
+
+# IC Information:
+Full product name: MF1S503xX/V1
+
+# MIFARE Application Directory (MADv1):
+CRC sector 0: ERROR
+Application classes:
+
+  DIR      bus      bus      bus      bus      bus      bus      bus   
+  bus      bus      bus      bus      bus      bus    [empty]    bus   
+
+
+# Block 0 analysis:
+UID: 76:CB:7F:F1
+* Re-used (Old) Non-Unique ID
+Check Byte: 0x33
+SAK: 0x88
+ATQA: 0x0400
+Manufacturer data:
+* C8 48 00 20 00 00 00 19 |.H. ....|
+	- Revision: C8
+	- Fab: TSMC
+	- Production date: week 48, 2019
+		~ PQE0/1: 48 19
+
+# Originality Check (asymmetric):
+Signature verified with NXP public key
+
+# Originality Check (symmetric):
+Originality check not supported
+
+# TagInfo Version:
+Version :6.1.0
+
+# Device Info:
+Device Model :Sony ( XQ-DC54 )
+Android OS Version :15
+
+-- FULL SCAN ------------------------------
+
+# Technologies Supported:
+MIFARE Classic compatible
+ISO/IEC 14443-3 (Type A) compatible
+ISO/IEC 14443-2 (Type A) compatible
+
+# Android Technology Information:
+Tag description:
+* TAG: Tech [android.nfc.tech.NfcA, android.nfc.tech.MifareClassic, android.nfc.tech.NdefFormatable]
+* Maximum transceive length: 253 bytes
+* Default maximum transceive time-out: 618 ms
+
+# Detailed Protocol Information:
+ID: 76:CB:7F:F1
+ATQA: 0x0400
+SAK: 0x08
+
+# Memory Content:
+Sector 0 (0x00)
+[00] r--  76 CB 7F F1 33 88 04 00 C8 48 00 20 00 00 00 19 |v...3....H. ....|
+[01] rW-  20 00 54 20 54 20 54 20 54 20 54 20 54 20 54 20 | .T T T T T T T |
+[02] rW-  54 20 54 20 54 20 54 20 54 20 54 20 00 00 54 20 |T T T T T T ..T |
+[03] WXW  A0:A1:A2:A3:A4:A5 69:67:89 C1 XX:XX:XX:XX:XX:XX
+          MAD access key                (unknown key)
+
+Sector 1 (0x01)
+[04] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[05] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[06] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[07] ???  XX:XX:XX:XX:XX:XX --:--:-- -- XX:XX:XX:XX:XX:XX
+          (unknown key)                 (unknown key)
+
+Sector 2 (0x02)
+[08] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[09] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[0A] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[0B] ???  XX:XX:XX:XX:XX:XX --:--:-- -- XX:XX:XX:XX:XX:XX
+          (unknown key)                 (unknown key)
+
+Sector 3 (0x03)
+[0C] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[0D] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[0E] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[0F] ???  XX:XX:XX:XX:XX:XX --:--:-- -- XX:XX:XX:XX:XX:XX
+          (unknown key)                 (unknown key)
+
+Sector 4 (0x04)
+[10] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[11] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[12] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[13] ???  XX:XX:XX:XX:XX:XX --:--:-- -- XX:XX:XX:XX:XX:XX
+          (unknown key)                 (unknown key)
+
+Sector 5 (0x05)
+[14] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[15] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[16] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[17] wxx  A0:A1:A2:A3:A4:A5 FF:07:80 00 B0:B1:B2:B3:B4:B5
+          MAD access key                Old Default key B (readable)
+
+Sector 6 (0x06)
+[18] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[19] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[1A] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[1B] ???  XX:XX:XX:XX:XX:XX --:--:-- -- XX:XX:XX:XX:XX:XX
+          (unknown key)                 (unknown key)
+
+Sector 7 (0x07)
+[1C] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[1D] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[1E] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[1F] ???  XX:XX:XX:XX:XX:XX --:--:-- -- XX:XX:XX:XX:XX:XX
+          (unknown key)                 (unknown key)
+
+Sector 8 (0x08)
+[20] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[21] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[22] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[23] ???  XX:XX:XX:XX:XX:XX --:--:-- -- XX:XX:XX:XX:XX:XX
+          (unknown key)                 (unknown key)
+
+Sector 9 (0x09)
+[24] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[25] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[26] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[27] ???  XX:XX:XX:XX:XX:XX --:--:-- -- XX:XX:XX:XX:XX:XX
+          (unknown key)                 (unknown key)
+
+Sector 10 (0x0A)
+[28] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[29] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[2A] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[2B] ???  XX:XX:XX:XX:XX:XX --:--:-- -- XX:XX:XX:XX:XX:XX
+          (unknown key)                 (unknown key)
+
+Sector 11 (0x0B)
+[2C] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[2D] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[2E] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[2F] ???  XX:XX:XX:XX:XX:XX --:--:-- -- XX:XX:XX:XX:XX:XX
+          (unknown key)                 (unknown key)
+
+Sector 12 (0x0C)
+[30] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[31] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[32] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[33] ???  XX:XX:XX:XX:XX:XX --:--:-- -- XX:XX:XX:XX:XX:XX
+          (unknown key)                 (unknown key)
+
+Sector 13 (0x0D)
+[34] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[35] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[36] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[37] ???  XX:XX:XX:XX:XX:XX --:--:-- -- XX:XX:XX:XX:XX:XX
+          (unknown key)                 (unknown key)
+
+Sector 14 (0x0E)
+[38] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[39] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[3A] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[3B] wxx  A0:A1:A2:A3:A4:A5 FF:07:80 00 B0:B1:B2:B3:B4:B5
+          MAD access key                Old Default key B (readable)
+
+Sector 15 (0x0F)
+[3C] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[3D] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[3E] ???  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+[3F] ???  XX:XX:XX:XX:XX:XX --:--:-- -- XX:XX:XX:XX:XX:XX
+          (unknown key)                 (unknown key)
+
+r/R=read, w/W=write, i/I=increment,
+d=decr/transfer/restore, x=r+w, X=R+W
+data block: r/w/i/d:key A|B, R/W/I:key B only,
+  I/i implies d, *=value block
+trailer (order: key A, AC, key B): r/w:key A,
+  W:key B, R:key A|B, (r)=readable key
+AC: W implies R+r, R implies r
+
+--------------------------------------
+

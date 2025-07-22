@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scan>
+	<version>6.1.0</version>
+	<date>2025-07-15 11:27:26</date>
+	<title>NXP Semiconductors MIFARE Classic EV1 (MF1S50) tag</title>
+	<uid nxp="true">46:61:7E:F1</uid>
+	<hasndef>false</hasndef>
+	<section>
+		<subsection title="IC Manufacturer">
+			<block type="text">
+	<content>NXP Semiconductors</content>
+</block>
+		</subsection>
+		<subsection title="IC Type">
+			<block type="text">
+	<content>MIFARE Classic EV1 (MF1S50)</content>
+</block>
+		</subsection>
+		<subsection title="MIFARE applications">
+			<block type="text">
+	<content>Multi-application card
+<hexoutput>Card publisher sector not present
+</hexoutput>‣ Bus services<hexoutput> (0x2054)</hexoutput></content>
+</block>
+		</subsection>
+	</section>
+	<section>
+		<subsection title="No NDEF Data Storage Present">
+			<block type="text">
+	<content>Maximum NDEF storage size after format: 716 bytes</content>
+</block>
+		</subsection>
+	</section>
+	<section>
+		<subsection title="Memory Information">
+			<block type="text">
+	<content>1 kB
+‣ 16 sectors, with 4 blocks per sector
+‣ 64 blocks, with 16 bytes per block</content>
+</block>
+		</subsection>
+		<subsection title="IC Information">
+			<block type="text">
+	<content>Full product name: MF1S503xX/V1</content>
+</block>
+		</subsection>
+		<subsection title="MIFARE Application Directory (MADv1)">
+			<block type="mad" hexoutput="false">
+	<text>CRC sector 0: ERROR<hexoutput> (0x20, should be 0x89)</hexoutput>
+Application classes:</text>
+<aid>  DIR   </aid><aid>  bus   </aid><aid>  bus   </aid><aid>  bus   </aid><aid>  bus   </aid><aid>  bus   </aid><aid>  bus   </aid><aid>  bus   </aid><aid>  bus   </aid><aid>  bus   </aid><aid>  bus   </aid><aid>  bus   </aid><aid>  bus   </aid><aid>  bus   </aid><aid>[empty] </aid><aid>  bus   </aid>
+<error/>
+</block><block type="mad" hexoutput="true">
+	<text>MIFARE Application IDs:</text>
+<aid>  ----  </aid><aid>  2054  </aid><aid>  2054  </aid><aid>  2054  </aid><aid>  2054  </aid><aid>  2054  </aid><aid>  2054  </aid><aid>  2054  </aid><aid>  2054  </aid><aid>  2054  </aid><aid>  2054  </aid><aid>  2054  </aid><aid>  2054  </aid><aid>  2054  </aid><aid>  0000  </aid><aid>  2054  </aid>
+<error/>
+</block>
+		</subsection>
+		<subsection title="Block 0 analysis">
+			<block type="text">
+	<content>UID: 46:61:7E:F1
+‣ Re-used (Old) Non-Unique ID
+Check Byte: 0xA8
+SAK: 0x88
+ATQA: 0x0400
+Manufacturer data:
+‣ C8 48 00 20 00 00 00 19 |·H· ····|
+	• Revision: C8
+	• Fab: TSMC
+	• Production date: week 48, 2019
+		◦ PQE0/1: 48 19</content>
+</block>
+		</subsection>
+		<subsection title="Originality Check (asymmetric)">
+			<block type="text">
+	<content>Signature verified with NXP public key<hexoutput> 
+ECDSA signature:
+‣ r: 0xE86C0FBF2AF541C90D2EC8E63DACE505
+‣ s: 0x3F30493613D788C3D536F21861D427B5</hexoutput></content>
+</block>
+		</subsection>
+		<subsection title="Originality Check (symmetric)">
+			<block type="text">
+	<content>Originality check not supported</content>
+</block>
+		</subsection>
+		<subsection title="TagInfo Version">
+			<block type="text">
+	<content>Version :6.1.0</content>
+</block>
+		</subsection>
+		<subsection title="Device Info">
+			<block type="text">
+	<content>Device Model :Sony ( XQ-DC54 )
+Android OS Version :15</content>
+</block>
+		</subsection>
+	</section>
+	<section>
+		<subsection title="Technologies Supported">
+			<block type="text">
+	<content>MIFARE Classic compatible
+ISO/IEC 14443-3 (Type A) compatible
+ISO/IEC 14443-2 (Type A) compatible</content>
+</block>
+		</subsection>
+		<subsection title="Android Technology Information">
+			<block type="text">
+	<content>Tag description:
+‣ TAG: Tech [android.nfc.tech.NfcA, android.nfc.tech.MifareClassic, android.nfc.tech.NdefFormatable]
+‣ Maximum transceive length: 253 bytes
+‣ Default maximum transceive time-out: 618 ms</content>
+</block>
+		</subsection>
+		<subsection title="Detailed Protocol Information">
+			<block type="text">
+	<content>ID: 46:61:7E:F1
+ATQA: 0x0400
+SAK: 0x08</content>
+</block>
+		</subsection>
+		<subsection title="Memory Content">
+			<block type="MifareData">
+	<address>0</address>
+	<data access="r--">46 61 7E F1 A8 88 04 00 C8 48 00 20 00 00 00 19</data>
+</block>
+<block type="MifareData">
+	<address>1</address>
+	<data access="rW-">20 00 54 20 54 20 54 20 54 20 54 20 54 20 54 20</data>
+</block>
+<block type="MifareData">
+	<address>2</address>
+	<data access="rW-">54 20 54 20 54 20 54 20 54 20 54 20 00 00 54 20</data>
+</block>
+<block type="MifareTrailer">
+	<address>3</address>
+	<data access="WXW">00 00 00 00 00 00 69 67 89 C1 00 00 00 00 00 00</data>
+	<keyA name="MAD access key">A0 A1 A2 A3 A4 A5</keyA>
+	<keyB></keyB>
+</block>
+<block type="MifareData">
+	<address>4</address>
+	<data access="???"/>
+</block>
+<block type="MifareData">
+	<address>5</address>
+	<data access="???"/>
+</block>
+<block type="MifareData">
+	<address>6</address>
+	<data access="???"/>
+</block>
+<block type="MifareTrailer">
+	<address>7</address>
+	<data access="???"/>
+	<keyA></keyA>
+	<keyB></keyB>
+</block>
+<block type="MifareData">
+	<address>8</address>
+	<data access="???"/>
+</block>
+<block type="MifareData">
+	<address>9</address>
+	<data access="???"/>
+</block>
+<block type="MifareData">
+	<address>10</address>
+	<data access="???"/>
+</block>
+<block type="MifareTrailer">
+	<address>11</address>
+	<data access="???"/>
+	<keyA></keyA>
+	<keyB></keyB>
+</block>
+<block type="MifareData">
+	<address>12</address>
+	<data access="???"/>
+</block>
+<block type="MifareData">
+	<address>13</address>
+	<data access="???"/>
+</block>
+<block type="MifareData">
+	<address>14</address>
+	<data access="???"/>
+</block>
+<block type="MifareTrailer">
+	<address>15</address>
+	<data access="???"/>
+	<keyA></keyA>
+	<keyB></keyB>
+</block>
+<block type="MifareData">
+	<address>16</address>
+	<data access="???"/>
+</block>
+<block type="MifareData">
+	<address>17</address>
+	<data access="???"/>
+</block>
+<block type="MifareData">
+	<address>18</address>
+	<data access="???"/>
+</block>
+<block type="MifareTrailer">
+	<address>19</address>
+	<data access="???"/>
+	<keyA></keyA>
+	<keyB></keyB>
+</block>
+<block type="MifareData">
+	<address>20</address>
+	<data access="rwi">00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block type="MifareData">
+	<address>21</address>
+	<data access="rwi">00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block type="MifareData">
+	<address>22</address>
+	<data access="rwi">00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block type="MifareTrailer">
+	<address>23</address>
+	<data access="wxx">00 00 00 00 00 00 FF 07 80 00 B0 B1 B2 B3 B4 B5</data>
+	<keyA name="MAD access key">A0 A1 A2 A3 A4 A5</keyA>
+	<keyB name="Old Default key B">B0 B1 B2 B3 B4 B5</keyB>
+</block>
+<block type="MifareData">
+	<address>24</address>
+	<data access="???"/>
+</block>
+<block type="MifareData">
+	<address>25</address>
+	<data access="???"/>
+</block>
+<block type="MifareData">
+	<address>26</address>
+	<data access="???"/>
+</block>
+<block type="MifareTrailer">
+	<address>27</address>
+	<data access="???"/>
+	<keyA></keyA>
+	<keyB></keyB>
+</block>
+<block type="MifareData">
+	<address>28</address>
+	<data access="???"/>
+</block>
+<block type="MifareData">
+	<address>29</address>
+	<data access="???"/>
+</block>
+<block type="MifareData">
+	<address>30</address>
+	<data access="???"/>
+</block>
+<block type="MifareTrailer">
+	<address>31</address>
+	<data access="???"/>
+	<keyA></keyA>
+	<keyB></keyB>
+</block>
+<block type="MifareData">
+	<address>32</address>
+	<data access="???"/>
+</block>
+<block type="MifareData">
+	<address>33</address>
+	<data access="???"/>
+</block>
+<block type="MifareData">
+	<address>34</address>
+	<data access="???"/>
+</block>
+<block type="MifareTrailer">
+	<address>35</address>
+	<data access="???"/>
+	<keyA></keyA>
+	<keyB></keyB>
+</block>
+<block type="MifareData">
+	<address>36</address>
+	<data access="???"/>
+</block>
+<block type="MifareData">
+	<address>37</address>
+	<data access="???"/>
+</block>
+<block type="MifareData">
+	<address>38</address>
+	<data access="???"/>
+</block>
+<block type="MifareTrailer">
+	<address>39</address>
+	<data access="???"/>
+	<keyA></keyA>
+	<keyB></keyB>
+</block>
+<block type="MifareData">
+	<address>40</address>
+	<data access="???"/>
+</block>
+<block type="MifareData">
+	<address>41</address>
+	<data access="???"/>
+</block>
+<block type="MifareData">
+	<address>42</address>
+	<data access="???"/>
+</block>
+<block type="MifareTrailer">
+	<address>43</address>
+	<data access="???"/>
+	<keyA></keyA>
+	<keyB></keyB>
+</block>
+<block type="MifareData">
+	<address>44</address>
+	<data access="???"/>
+</block>
+<block type="MifareData">
+	<address>45</address>
+	<data access="???"/>
+</block>
+<block type="MifareData">
+	<address>46</address>
+	<data access="???"/>
+</block>
+<block type="MifareTrailer">
+	<address>47</address>
+	<data access="???"/>
+	<keyA></keyA>
+	<keyB></keyB>
+</block>
+<block type="MifareData">
+	<address>48</address>
+	<data access="???"/>
+</block>
+<block type="MifareData">
+	<address>49</address>
+	<data access="???"/>
+</block>
+<block type="MifareData">
+	<address>50</address>
+	<data access="???"/>
+</block>
+<block type="MifareTrailer">
+	<address>51</address>
+	<data access="???"/>
+	<keyA></keyA>
+	<keyB></keyB>
+</block>
+<block type="MifareData">
+	<address>52</address>
+	<data access="???"/>
+</block>
+<block type="MifareData">
+	<address>53</address>
+	<data access="???"/>
+</block>
+<block type="MifareData">
+	<address>54</address>
+	<data access="???"/>
+</block>
+<block type="MifareTrailer">
+	<address>55</address>
+	<data access="???"/>
+	<keyA></keyA>
+	<keyB></keyB>
+</block>
+<block type="MifareData">
+	<address>56</address>
+	<data access="rwi">00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block type="MifareData">
+	<address>57</address>
+	<data access="rwi">00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block type="MifareData">
+	<address>58</address>
+	<data access="rwi">00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block type="MifareTrailer">
+	<address>59</address>
+	<data access="wxx">00 00 00 00 00 00 FF 07 80 00 B0 B1 B2 B3 B4 B5</data>
+	<keyA name="MAD access key">A0 A1 A2 A3 A4 A5</keyA>
+	<keyB name="Old Default key B">B0 B1 B2 B3 B4 B5</keyB>
+</block>
+<block type="MifareData">
+	<address>60</address>
+	<data access="???"/>
+</block>
+<block type="MifareData">
+	<address>61</address>
+	<data access="???"/>
+</block>
+<block type="MifareData">
+	<address>62</address>
+	<data access="???"/>
+</block>
+<block type="MifareTrailer">
+	<address>63</address>
+	<data access="???"/>
+	<keyA></keyA>
+	<keyB></keyB>
+</block>
+<block type="text">
+	<content><mono>
+r/R=read, w/W=write, i/I=increment,
+d=decr/transfer/restore, x=r+w, X=R+W
+data block: r/w/i/d:key A|B, R/W/I:key B only,
+  I/i implies d, *=value block
+trailer (order: key A, AC, key B): r/w:key A,
+  W:key B, R:key A|B, (r)=readable key
+AC: W implies R+r, R implies r</mono></content>
+</block>
+		</subsection>
+	</section>
+</scan>
