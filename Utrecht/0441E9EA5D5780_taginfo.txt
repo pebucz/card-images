@@ -1,0 +1,101 @@
+** TagInfo Scan (version 6.1.0) 25-čvc-25 14:48:26 **
+Report Type: -- IC INFO ------------------------------
+
+# IC Manufacturer:
+NXP Semiconductors
+
+# IC Type:
+MIFARE Ultralight EV1 (MF0ULx1)
+
+-- NDEF ------------------------------
+
+# No NDEF Data Storage Populated:
+
+-- EXTRA ------------------------------
+
+# Memory Information:
+48 bytes user memory
+* 12 pages, with 4 bytes per page
+
+# IC Information:
+Full product name: MF0UL1101DUx
+
+# Version information:
+Vendor ID: NXP Semiconductors
+Type: MIFARE Ultralight
+Subtype: 17 pF
+Major version: 1
+Minor version: V0
+Storage size: 48 bytes
+Protocol: ISO/IEC 14443-3
+
+
+# Configuration information:
+AFC counter values:
+* Counter #0: 0
+* Counter #1: 0
+* Counter #2: 0
+No limit on wrong password attempts
+Strong load modulation disabled
+
+# Originality Check (asymmetric):
+Signature verified with NXP public key
+
+# Originality Check (symmetric):
+Originality check not supported
+
+# TagInfo Version:
+Version :6.1.0
+
+# Device Info:
+Device Model :Sony ( XQ-DC54 )
+Android OS Version :15
+
+-- FULL SCAN ------------------------------
+
+# Technologies Supported:
+ISO/IEC 14443-3 (Type A) compatible
+ISO/IEC 14443-2 (Type A) compatible
+
+# Android Technology Information:
+Tag description:
+* TAG: Tech [android.nfc.tech.NfcA, android.nfc.tech.MifareUltralight, android.nfc.tech.NdefFormatable]
+* Maximum transceive length: 253 bytes
+* Default maximum transceive time-out: 618 ms
+
+
+# Detailed Protocol Information:
+ID: 04:41:E9:EA:5D:57:80
+ATQA: 0x4400
+SAK: 0x00
+
+# Memory Content:
+[00] *  04:41:E9 24 (UID0-UID2, BCC0)
+[01] *  EA:5D:57:80 (UID3-UID6)
+[02] x  60 48 00 F0 (BCC1, INT, LOCK0-LOCK1)
+[03] .  00:00:00:00 (OTP0-OTP3)
+[04] .  D0 00 10 00 |....|
+[05] .  12 1C B3 F0 |....|
+[06] .  A9 FA 1E 3F |...?|
+[07] .  3E AC 8C B0 |>...|
+[08] .  00 00 00 00 |....|
+[09] .  00 00 00 00 |....|
+[0A] .  00 00 00 00 |....|
+[0B] .  00 00 00 00 |....|
+[0C] x  7D AA E6 FC |}...|
+[0D] x  0B 2F E3 EF |./..|
+[0E] x  DC 5B 06 32 |.[.2|
+[0F] x  B9 61 34 6E |.a4n|
+[10]    00 00 00 FF (AUTH0)
+[11]    00 05 -- -- (ACCESS, VCTID)
+[12] +P FF FF FF FF (PWD0-PWD3)
+[13] +P 00 00 -- -- (PACK0-PACK1)
+
+  *:locked & blocked, x:locked,
+  +:blocked, .:un(b)locked, ?:unknown
+  r:readable (write-protected),
+  p:password protected, -:write-only
+  P:password protected write-only
+
+--------------------------------------
+
