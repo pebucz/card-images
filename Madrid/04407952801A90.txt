@@ -1,0 +1,40 @@
+Card INFO
+=========
+UID:            04 40 79 52 80 1A 90
+ATS:            06 75 77 81 02 80
+GetVersion
+  HW: vendor 0x04, type 1.1, version 51.0, size 4096, protocol 0x05
+  SW: vendor 0x04, type 1.1, version 3.0, size 4096, protocol 0x05
+  uid 04 40 79 52 80 1A 90, prod 37/2023, batch 20 85 69 30 30
+Free memory: 2272
+Originality signature: 0A D5 B6 7F AD 67 3C CD DA 2B A8 72 31 AE 29 60 CA 6C 4A 51 A7 94 E9 B1 C4 18 37 A1 48 46 6A F9 8A 3A D6 AB 8C DA 51 7B 39 BF 05 95 55 B6 F0 3E 71 11 B1 65 4A D5 1C 4F
+Applications:
+  0x000000
+    KeySettings 0x0B, max 1 keys of type 3DES
+      PICC master key changeable
+      GetApplicationIDs, GetDFNames, GetKeySettings WITHOUT PICC master key auth
+      CreateApplication, DeleteApplication WITH PICC master key auth
+      Configuration changeable
+    KeyVersions CC 00 00 00 00
+    Files (0)
+  0x010000
+    KeySettings 0x0B, max 6 keys of type 3DES
+      App master key changeable
+      GetFileIDs, GetISOFileIDs, GetFileSettings, GetKeySettings WITHOUT master key auth
+      CreateFile, DeleteFile WITH master key auth
+      Configuration changeable
+      Change key with master key auth
+    KeyVersions 31 EF EE 2C 67 94
+    Files (12)
+      0x00 : BCK DATA, comm ENC, access 0x2440, size 141
+      0x01 : BCK DATA, comm ENC, access 0x2440, size 141
+      0x02 : BCK DATA, comm ENC, access 0x2440, size 141
+      0x03 : BCK DATA, comm ENC, access 0x2330, size 132
+      0x04 : BCK DATA, comm ENC, access 0x2330, size 132
+      0x05 : BCK DATA, comm ENC, access 0x2330, size 132
+      0x06 : BCK DATA, comm ENC, access 0x2220, size 16
+      0x07 : BCK DATA, comm ENC, access 0x2330, size 62
+      0x08 : STD DATA, comm ENC, access 0x2110, size 38
+      0x09 : STD DATA, comm ENC, access 0x2550, size 17
+      0x0A : STD DATA, comm ENC, access 0x2110, size 43
+      0x0B : STD DATA, comm ENC, access 0x1110, size 167

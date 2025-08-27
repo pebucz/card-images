@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scan>
+	<version>6.0.0</version>
+	<date>2025-05-23 10:16:16</date>
+	<title>NXP Semiconductors MIFARE DESFire EV3 (MF3D43) tag</title>
+	<uid nxp="true">04:35:C6:52:80:1A:90</uid>
+	<hasndef>false</hasndef>
+	<section>
+		<subsection title="IC Manufacturer">
+			<block type="text">
+	<content>NXP Semiconductors</content>
+</block>
+		</subsection>
+		<subsection title="IC Type">
+			<block type="text">
+	<content>MIFARE DESFire EV3 (MF3D43)</content>
+</block>
+		</subsection>
+		<subsection title="DESFire Applications">
+			<block type="text">
+	<content>1 unknown application<hexoutput>:
+‣ Unknown application 0x010000</hexoutput></content>
+</block>
+		</subsection>
+	</section>
+	<section>
+		<subsection title="No NDEF Data Storage Populated">
+			<block type="text">
+	<content></content>
+</block>
+		</subsection>
+	</section>
+	<section>
+		<subsection title="Memory information">
+			<block type="text">
+	<content>Size: 4 kB
+Available: 2.2 kB<hexoutput> (2272 bytes)</hexoutput></content>
+</block>
+		</subsection>
+		<subsection title="IC Information">
+			<block type="text">
+	<content>Capacitance: 17 pF</content>
+</block>
+		</subsection>
+		<subsection title="Version information">
+			<block type="text">
+	<content>Vendor ID: NXP Semiconductors<hexoutput> (0x04)</hexoutput>
+Hardware info:
+‣ Type/subtype: 0x01/0x01
+‣  Major Version: 0x33
+‣  Minor Version: 0x00
+‣ Storage size: 4096 bytes<hexoutput> (0x18)</hexoutput>
+‣ Protocol: ISO/IEC 14443-4<hexoutput> (0x05)</hexoutput>
+Software info:
+‣ Type/subtype: 0x01/0x01
+‣  Major Version: 0x03
+‣  Minor Version: 0x00
+‣ Storage size: 4096 bytes<hexoutput> (0x18)</hexoutput>
+‣ Protocol: ISO/IEC 14443-4<hexoutput> (0x05)</hexoutput>
+Production date: week 37, 2023<hexoutput> (0x3723)</hexoutput>
+FAB Identifier: 0 (GlobalFoundries Fab 7)</content>
+</block>
+		</subsection>
+		<subsection title="Originality Check (asymmetric)">
+			<block type="text">
+	<content>Signature verified with NXP public key</content>
+</block>
+		</subsection>
+		<subsection title="Originality Check (symmetric)">
+			<block type="text">
+	<content>Originality Check successful, IC produced by NXP</content>
+</block>
+		</subsection>
+		<subsection title="TagInfo Version">
+			<block type="text">
+	<content>Version :6.0.0</content>
+</block>
+		</subsection>
+		<subsection title="Device Info">
+			<block type="text">
+	<content>Device Model :Sony ( XQ-DC54 )
+Android OS Version :15</content>
+</block>
+		</subsection>
+	</section>
+	<section>
+		<subsection title="Technologies Supported">
+			<block type="text">
+	<content>ISO/IEC 7816-4 compatible
+Native DESFire APDU framing
+ISO/IEC 14443-4 (Type A) compatible
+ISO/IEC 14443-3 (Type A) compatible
+ISO/IEC 14443-2 (Type A) compatible</content>
+</block>
+		</subsection>
+		<subsection title="Android Technology Information">
+			<block type="text">
+	<content>Tag description:
+‣ TAG: Tech [android.nfc.tech.IsoDep, android.nfc.tech.NfcA, android.nfc.tech.NdefFormatable]
+‣ Maximum transceive length: 65279 bytes
+‣ Default maximum transceive time-out: 618 ms
+‣ Extended length APDUs supported
+‣ Maximum transceive length: 253 bytes
+‣ Default maximum transceive time-out: 618 ms
+<hexoutput>MIFARE Classic support present in Android</hexoutput></content>
+</block>
+		</subsection>
+		<subsection title="Detailed Protocol Information">
+			<block type="text">
+	<content>ID: 04:35:C6:52:80:1A:90
+ATQA: 0x4403
+SAK: 0x20
+ATS: 0x067577810280
+‣ Max. accepted frame size: 64 bytes (FSCI: 5)
+‣ Supported receive rates:
+	• 106, 212, 424, 848 kbit/s (DR: 1, 2, 4, 8)
+‣ Supported send rates:
+	• 106, 212, 424, 848 kbit/s (DS: 1, 2, 4, 8)
+‣ Different send and receive rates supported
+‣ SFGT: 604.1 µs  (SFGI: 1)
+‣ FWT: 77.33 ms  (FWI: 8)
+‣ NAD not supported
+‣ CID supported
+‣ Historical bytes: 0x80 |·|</content>
+</block>
+		</subsection>
+		<subsection title="Memory Content">
+			<block type="text">
+	<content>
+Application ID 0x000000 (PICC)
+‣ Key configuration:<hexoutput> (0x0B01)</hexoutput>
+  • 1 (3)DES key
+  • Master key changeable
+  • Master key required for:
+    ◦ directory list access: no
+    ◦ create/delete files: yes
+  • Configuration changeable</content>
+</block>
+<block type="text">
+	<content>
+Application ID 0x000001
+‣ Key configuration:<hexoutput> (0x0B06)</hexoutput>
+  • 6 (3)DES keys
+  • Master key changeable
+  • Master key required for:
+    ◦ directory list access: no
+    ◦ create/delete files: yes
+  • Configuration changeable
+  • Master key required for changing a key</content>
+</block>
+<block type="text">
+	<content>
+  • File ID 0x00: Backup data, 141 bytes
+    ◦ Communication: encrypted
+    ◦ Read key: key #2
+    ◦ Write key: key #4
+    ◦ Read/Write key: key #4
+    ◦ Change key: master key<hexoutput> (0x00)</hexoutput></content>
+</block>
+<block type="text">
+	<content>    ◦ (No access)</content>
+</block>
+<block type="text">
+	<content>
+  • File ID 0x01: Backup data, 141 bytes
+    ◦ Communication: encrypted
+    ◦ Read key: key #2
+    ◦ Write key: key #4
+    ◦ Read/Write key: key #4
+    ◦ Change key: master key<hexoutput> (0x00)</hexoutput></content>
+</block>
+<block type="text">
+	<content>    ◦ (No access)</content>
+</block>
+<block type="text">
+	<content>
+  • File ID 0x02: Backup data, 141 bytes
+    ◦ Communication: encrypted
+    ◦ Read key: key #2
+    ◦ Write key: key #4
+    ◦ Read/Write key: key #4
+    ◦ Change key: master key<hexoutput> (0x00)</hexoutput></content>
+</block>
+<block type="text">
+	<content>    ◦ (No access)</content>
+</block>
+<block type="text">
+	<content>
+  • File ID 0x03: Backup data, 132 bytes
+    ◦ Communication: encrypted
+    ◦ Read key: key #2
+    ◦ Write key: key #3
+    ◦ Read/Write key: key #3
+    ◦ Change key: master key<hexoutput> (0x00)</hexoutput></content>
+</block>
+<block type="text">
+	<content>    ◦ (No access)</content>
+</block>
+<block type="text">
+	<content>
+  • File ID 0x04: Backup data, 132 bytes
+    ◦ Communication: encrypted
+    ◦ Read key: key #2
+    ◦ Write key: key #3
+    ◦ Read/Write key: key #3
+    ◦ Change key: master key<hexoutput> (0x00)</hexoutput></content>
+</block>
+<block type="text">
+	<content>    ◦ (No access)</content>
+</block>
+<block type="text">
+	<content>
+  • File ID 0x05: Backup data, 132 bytes
+    ◦ Communication: encrypted
+    ◦ Read key: key #2
+    ◦ Write key: key #3
+    ◦ Read/Write key: key #3
+    ◦ Change key: master key<hexoutput> (0x00)</hexoutput></content>
+</block>
+<block type="text">
+	<content>    ◦ (No access)</content>
+</block>
+<block type="text">
+	<content>
+  • File ID 0x06: Backup data, 16 bytes
+    ◦ Communication: encrypted
+    ◦ Read key: key #2
+    ◦ Write key: key #2
+    ◦ Read/Write key: key #2
+    ◦ Change key: master key<hexoutput> (0x00)</hexoutput></content>
+</block>
+<block type="text">
+	<content>    ◦ (No access)</content>
+</block>
+<block type="text">
+	<content>
+  • File ID 0x07: Backup data, 62 bytes
+    ◦ Communication: encrypted
+    ◦ Read key: key #2
+    ◦ Write key: key #3
+    ◦ Read/Write key: key #3
+    ◦ Change key: master key<hexoutput> (0x00)</hexoutput></content>
+</block>
+<block type="text">
+	<content>    ◦ (No access)</content>
+</block>
+<block type="text">
+	<content>
+  • File ID 0x08: Standard data, 38 bytes
+    ◦ Communication: encrypted
+    ◦ Read key: key #2
+    ◦ Write key: key #1
+    ◦ Read/Write key: key #1
+    ◦ Change key: master key<hexoutput> (0x00)</hexoutput></content>
+</block>
+<block type="text">
+	<content>    ◦ (No access)</content>
+</block>
+<block type="text">
+	<content>
+  • File ID 0x09: Standard data, 17 bytes
+    ◦ Communication: encrypted
+    ◦ Read key: key #2
+    ◦ Write key: key #5
+    ◦ Read/Write key: key #5
+    ◦ Change key: master key<hexoutput> (0x00)</hexoutput></content>
+</block>
+<block type="text">
+	<content>    ◦ (No access)</content>
+</block>
+<block type="text">
+	<content>
+  • File ID 0x0A: Standard data, 43 bytes
+    ◦ Communication: encrypted
+    ◦ Read key: key #2
+    ◦ Write key: key #1
+    ◦ Read/Write key: key #1
+    ◦ Change key: master key<hexoutput> (0x00)</hexoutput></content>
+</block>
+<block type="text">
+	<content>    ◦ (No access)</content>
+</block>
+<block type="text">
+	<content>
+  • File ID 0x0B: Standard data, 167 bytes
+    ◦ Communication: encrypted
+    ◦ Read key: key #1
+    ◦ Write key: key #1
+    ◦ Read/Write key: key #1
+    ◦ Change key: master key<hexoutput> (0x00)</hexoutput></content>
+</block>
+<block type="text">
+	<content>    ◦ (No access)</content>
+</block>
+		</subsection>
+	</section>
+</scan>

@@ -1,0 +1,210 @@
+** TagInfo Scan (version 6.0.0) 23-kvě-25 10:16:22 **
+Report Type: -- IC INFO ------------------------------
+
+# IC Manufacturer:
+NXP Semiconductors
+
+# IC Type:
+MIFARE DESFire EV3 (MF3D43)
+
+# DESFire Applications:
+1 unknown application
+
+-- NDEF ------------------------------
+
+# No NDEF Data Storage Populated:
+
+-- EXTRA ------------------------------
+
+# Memory information:
+Size: 4 kB
+Available: 2.2 kB
+
+# IC Information:
+Capacitance: 17 pF
+
+# Version information:
+Vendor ID: NXP Semiconductors
+Hardware info:
+* Type/subtype: 0x01/0x01
+*  Major Version: 0x33
+*  Minor Version: 0x00
+* Storage size: 4096 bytes
+* Protocol: ISO/IEC 14443-4
+Software info:
+* Type/subtype: 0x01/0x01
+*  Major Version: 0x03
+*  Minor Version: 0x00
+* Storage size: 4096 bytes
+* Protocol: ISO/IEC 14443-4
+Production date: week 37, 2023
+FAB Identifier: 0 (GlobalFoundries Fab 7)
+
+# Originality Check (asymmetric):
+Signature verified with NXP public key
+
+# Originality Check (symmetric):
+Originality Check successful, IC produced by NXP
+
+# TagInfo Version:
+Version :6.0.0
+
+# Device Info:
+Device Model :Sony ( XQ-DC54 )
+Android OS Version :15
+
+-- FULL SCAN ------------------------------
+
+# Technologies Supported:
+ISO/IEC 7816-4 compatible
+Native DESFire APDU framing
+ISO/IEC 14443-4 (Type A) compatible
+ISO/IEC 14443-3 (Type A) compatible
+ISO/IEC 14443-2 (Type A) compatible
+
+# Android Technology Information:
+Tag description:
+* TAG: Tech [android.nfc.tech.IsoDep, android.nfc.tech.NfcA, android.nfc.tech.NdefFormatable]
+* Maximum transceive length: 65279 bytes
+* Default maximum transceive time-out: 618 ms
+* Extended length APDUs supported
+* Maximum transceive length: 253 bytes
+* Default maximum transceive time-out: 618 ms
+
+
+# Detailed Protocol Information:
+ID: 04:35:C6:52:80:1A:90
+ATQA: 0x4403
+SAK: 0x20
+ATS: 0x067577810280
+* Max. accepted frame size: 64 bytes (FSCI: 5)
+* Supported receive rates:
+	- 106, 212, 424, 848 kbit/s (DR: 1, 2, 4, 8)
+* Supported send rates:
+	- 106, 212, 424, 848 kbit/s (DS: 1, 2, 4, 8)
+* Different send and receive rates supported
+* SFGT: 604.1 us  (SFGI: 1)
+* FWT: 77.33 ms  (FWI: 8)
+* NAD not supported
+* CID supported
+* Historical bytes: 0x80 |.|
+
+# Memory Content:
+
+Application ID 0x000000 (PICC)
+* Key configuration:
+  - 1 (3)DES key
+  - Master key changeable
+  - Master key required for:
+    ~ directory list access: no
+    ~ create/delete files: yes
+  - Configuration changeable
+
+Application ID 0x000001
+* Key configuration:
+  - 6 (3)DES keys
+  - Master key changeable
+  - Master key required for:
+    ~ directory list access: no
+    ~ create/delete files: yes
+  - Configuration changeable
+  - Master key required for changing a key
+
+  - File ID 0x00: Backup data, 141 bytes
+    ~ Communication: encrypted
+    ~ Read key: key #2
+    ~ Write key: key #4
+    ~ Read/Write key: key #4
+    ~ Change key: master key
+    ~ (No access)
+
+  - File ID 0x01: Backup data, 141 bytes
+    ~ Communication: encrypted
+    ~ Read key: key #2
+    ~ Write key: key #4
+    ~ Read/Write key: key #4
+    ~ Change key: master key
+    ~ (No access)
+
+  - File ID 0x02: Backup data, 141 bytes
+    ~ Communication: encrypted
+    ~ Read key: key #2
+    ~ Write key: key #4
+    ~ Read/Write key: key #4
+    ~ Change key: master key
+    ~ (No access)
+
+  - File ID 0x03: Backup data, 132 bytes
+    ~ Communication: encrypted
+    ~ Read key: key #2
+    ~ Write key: key #3
+    ~ Read/Write key: key #3
+    ~ Change key: master key
+    ~ (No access)
+
+  - File ID 0x04: Backup data, 132 bytes
+    ~ Communication: encrypted
+    ~ Read key: key #2
+    ~ Write key: key #3
+    ~ Read/Write key: key #3
+    ~ Change key: master key
+    ~ (No access)
+
+  - File ID 0x05: Backup data, 132 bytes
+    ~ Communication: encrypted
+    ~ Read key: key #2
+    ~ Write key: key #3
+    ~ Read/Write key: key #3
+    ~ Change key: master key
+    ~ (No access)
+
+  - File ID 0x06: Backup data, 16 bytes
+    ~ Communication: encrypted
+    ~ Read key: key #2
+    ~ Write key: key #2
+    ~ Read/Write key: key #2
+    ~ Change key: master key
+    ~ (No access)
+
+  - File ID 0x07: Backup data, 62 bytes
+    ~ Communication: encrypted
+    ~ Read key: key #2
+    ~ Write key: key #3
+    ~ Read/Write key: key #3
+    ~ Change key: master key
+    ~ (No access)
+
+  - File ID 0x08: Standard data, 38 bytes
+    ~ Communication: encrypted
+    ~ Read key: key #2
+    ~ Write key: key #1
+    ~ Read/Write key: key #1
+    ~ Change key: master key
+    ~ (No access)
+
+  - File ID 0x09: Standard data, 17 bytes
+    ~ Communication: encrypted
+    ~ Read key: key #2
+    ~ Write key: key #5
+    ~ Read/Write key: key #5
+    ~ Change key: master key
+    ~ (No access)
+
+  - File ID 0x0A: Standard data, 43 bytes
+    ~ Communication: encrypted
+    ~ Read key: key #2
+    ~ Write key: key #1
+    ~ Read/Write key: key #1
+    ~ Change key: master key
+    ~ (No access)
+
+  - File ID 0x0B: Standard data, 167 bytes
+    ~ Communication: encrypted
+    ~ Read key: key #1
+    ~ Write key: key #1
+    ~ Read/Write key: key #1
+    ~ Change key: master key
+    ~ (No access)
+
+--------------------------------------
+
